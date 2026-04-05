@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+    font-family:Helvetica;
+    background-color: rgb(126, 170, 187);
+    color: rgb(255, 202, 202);
+}
+header{
+    display: flex;
+    justify-content: space-between;;
+    padding: 20px;
+    background-color: #cf745b;}
+
+    header h1{
+        margin: 15px;
+        color: rgb(0, 0, 0);
+        text-align: center; 
+    }
+    nav a{
+        color: rgb(162, 221, 150);
+        text-decoration: grey;
+        margin-left: 20px;
+    }
+    nav a:hover{
+        color: goldenrod;
+        text-decoration: grey;
+    }
+    .hero {
+        text-align: center;
+        padding:60px 20px
+        font-size: 25px;
+        margin: 20px;
+    }
+    .hero h2{
+        color: rgb(72, 105, 196);
+        font-size: 60px;
+        font-style: oblique;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 40px;
+    }
+    .menu h2{
+        color: rgb(226, 71, 161);
+        font-size: 90px;
+        text-align: center;
+        width: 100%;
+        font-style: thick;
+    }
+
+.item{
+    background-color: #111;
+    border: 1px solid gold;
+    padding: 100px;
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+}
+.item img{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+.tem h3{
+    color: goldenrod;
+    margin: 10px 0;
+}
+button{
+    margin-top: 10px;
+
+    background-color: goldenrod;
+    border: 1px rgb(1, 1, 145);
+    padding: 10px 20px;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(182, 25, 25);
+}
+
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #49160a;
+    color: goldenrod;
+    border-top: 1px solid gold;
+}
+
